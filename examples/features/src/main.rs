@@ -195,6 +195,12 @@ const EXAMPLES: &[ExampleDesc] = &[
         webgpu: false,
     },
     ExampleDesc {
+        name: "mesh_shader_parallel",
+        function: wgpu_examples::mesh_shader_parallel::main,
+        webgl: false,
+        webgpu: false,
+    },
+    ExampleDesc {
         name: "multiview",
         function: wgpu_examples::multiview::main,
         webgl: false,

@@ -15,6 +15,7 @@ pub mod hello_triangle;
 pub mod hello_windows;
 pub mod hello_workgroups;
 pub mod mesh_shader;
+pub mod mesh_shader_parallel;
 pub mod mipmap;
 pub mod msaa_line;
 pub mod multiple_render_targets;
