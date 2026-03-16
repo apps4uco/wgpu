@@ -63,7 +63,7 @@ void meshShader(
     out.set_primitive_count(1);
   }
 
-  uint i=thread_id;
+  uint i=local_id;
   if (i<3) {
         OutVertex vert;
         vert.Position = positions[i];
